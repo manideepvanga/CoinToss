@@ -1,0 +1,38 @@
+/* Write your CSS here */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to right, #f9d423, #e2a139);
+  height: 100vh;
+}
+.content {
+  background-color: #ffffff;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30vw;
+  border-radius: 10px;
+}
+.totalcontainer {
+  display: flex;
+  justify-content: space-evenly;
+  width: 20vw;
+}
+
+img {
+  height: 200px;
+  width: 200px;
+}
+
+button {
+  background-color: #f9d423;
+  color: #a35200;
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px 0px;
+}
